@@ -59,7 +59,7 @@ const About = () => {
           <div className="relative">
             <div className="relative overflow-hidden rounded-2xl shadow-2xl group">
               <img
-                src="https://images.pexels.com/photos/9800029/pexels-photo-9800029.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="https://cdn.dribbble.com/userupload/44960900/file/c982c754c02d22515734ce8da6ea6b97.jpeg?auto=compress&cs=tinysrgb&w=800"
                 alt="Biomass pellets in hand"
                 className="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-500"
               />
