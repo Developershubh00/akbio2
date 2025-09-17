@@ -8,6 +8,21 @@ const Hero = () => {
 
   const heroImages = [
     {
+      url: 'https://cdn.dribbble.com/userupload/44960441/file/6111b8f71db95990bdd425db175c0688.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      title: 'Fueling Industries, Sustaining Tomorrow',
+      subtitle: 'High-quality biomass pellets for burners & boilers'
+    },
+    {
+      url: 'https://cdn.dribbble.com/userupload/44960442/file/bd9d4cb5681293fec29565ca0481a221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      title: 'Renewable Energy Solutions',
+      subtitle: 'Carbon-neutral fuel for a cleaner future'
+    },
+    {
+      url: 'https://cdn.dribbble.com/userupload/44960443/file/4fa46450b292697fbf4728046a887097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      title: 'Sustainable Industrial Power',
+      subtitle: 'Eco-friendly alternatives to fossil fuels'
+    },
+    {
       url: 'https://images.pexels.com/photos/9800029/pexels-photo-9800029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       title: 'Fueling Industries, Sustaining Tomorrow',
       subtitle: 'High-quality biomass pellets for burners & boilers'
