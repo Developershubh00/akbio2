@@ -6,31 +6,31 @@ const Products = () => {
     {
       name: 'Mustard Husk Pellets',
       icon: Wheat,
-      image: 'https://images.pexels.com/photos/4022092/pexels-photo-4022092.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://cdn.dribbble.com/userupload/45069483/file/c9f6073d39551ead396b36056528219a.jpg?auto=compress&cs=tinysrgb&w=400',
       description: 'High-energy pellets from mustard agricultural waste'
     },
     {
       name: 'Groundnut Husk Pellets',
       icon: Nut,
-      image: 'https://images.pexels.com/photos/4022093/pexels-photo-4022093.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://cdn.dribbble.com/userupload/45069480/file/c11ddb42bc5e129721a9709744e68de4.webp?auto=compress&cs=tinysrgb&w=400',
       description: 'Sustainable fuel from groundnut processing residue'
     },
     {
       name: 'Sugarcane Bagasse Pellets',
       icon: Leaf,
-      image: 'https://images.pexels.com/photos/4022094/pexels-photo-4022094.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://cdn.dribbble.com/userupload/45069482/file/938b460bc8cd65d6ee19c64f9fdefe17.webp?auto=compress&cs=tinysrgb&w=400',
       description: 'Renewable energy from sugarcane fiber waste'
     },
     {
       name: 'Coconut Husk Pellets',
       icon: TreePine,
-      image: 'https://images.pexels.com/photos/4022095/pexels-photo-4022095.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://cdn.dribbble.com/userupload/45069481/file/5a78f4338391b60226b3ee2ff700245a.jpg?auto=compress&cs=tinysrgb&w=400',
       description: 'Eco-friendly pellets from coconut processing waste'
     },
     {
       name: 'Wood Pellets',
       icon: TreePine,
-      image: 'https://images.pexels.com/photos/4022096/pexels-photo-4022096.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://cdn.dribbble.com/userupload/45069484/file/1e845acf4ca45d3586621e3bfd5882d7.jpg?auto=compress&cs=tinysrgb&w=400',
       description: 'Premium quality wood pellets for industrial use'
     }
   ];
