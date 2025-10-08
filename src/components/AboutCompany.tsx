@@ -1,5 +1,6 @@
 import React from 'react';
 import { Building2, Users, Target, Award } from 'lucide-react';
+import { Logo } from './Logo';
 
 const AboutCompany = () => {
   return (
@@ -9,7 +10,7 @@ const AboutCompany = () => {
           {/* Header */}
           <div className="text-center mb-16">
             <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 rounded-full mb-6">
-              <Building2 className="w-8 h-8 text-green-600" />
+              <Logo className="w-8 h-8 text-green-600" />
             </div>
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
               🌱 About AK Bio Energy

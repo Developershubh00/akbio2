@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Leaf } from 'lucide-react';
+import { Logo } from './Logo';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -44,9 +45,9 @@ const Header = () => {
             className="flex items-center cursor-pointer"
             onClick={() => scrollToSection('hero')}
           >
-            <div className="bg-green-600 p-2 rounded-full mr-3">
-              <Leaf className="w-6 h-6 text-white" />
-            </div>
+            <Logo width={150} className="w-12 h-12 mr-2" alt="AK Bio Energy Logo" />
+            {/* <div className="bg-green-600 p-2 rounded-full mr-3">
+            </div> */}
             <span
               className={`text-xl font-bold transition-colors duration-300 ${
                 isScrolled ? 'text-gray-900' : 'text-white'

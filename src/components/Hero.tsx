@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, Leaf, Phone } from 'lucide-react';
+import { Logo } from './Logo';
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -137,10 +138,10 @@ const Hero = () => {
       <div className="relative z-10 h-full flex items-center">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
-            <div className="flex items-center mb-6 animate-fade-in">
-              <Leaf className="w-8 h-8 text-green-400 mr-3" />
+            {/* <div className="flex items-center mb-6 animate-fade-in">
+              <Logo className="w-8 h-8 text-green-400 mr-3" />
               <span className="text-green-400 font-semibold text-lg">AK Bio Energy</span>
-            </div>
+            </div> */}
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight animate-slide-up">
               {heroImages[currentSlide].title}

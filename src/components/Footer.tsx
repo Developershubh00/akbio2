@@ -1,5 +1,6 @@
 import React from 'react';
 import { Leaf, ArrowUp } from 'lucide-react';
+import { Logo } from './Logo';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -12,7 +13,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <Leaf className="h-8 w-8 text-green-400" />
+              <Logo className="h-8 w-8 text-green-400" />
               <span className="text-2xl font-bold">AK Bio Energy</span>
             </div>
             <p className="text-gray-300 leading-relaxed mb-6">
