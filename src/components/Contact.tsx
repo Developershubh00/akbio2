@@ -92,7 +92,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Phone</h3>
-                  <p className="text-gray-600">+91 9711753497</p>
+                  <p className="text-gray-600">+91 9711753499</p>
                 </div>
               </div>
             </div>
@@ -109,7 +109,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="group bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+            {/* <div className="group bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
               <div className="flex items-center space-x-4">
                 <div className="bg-green-100 p-3 rounded-full group-hover:bg-green-200 transition-colors duration-300">
                   <MapPin className="w-6 h-6 text-green-600" />
@@ -119,7 +119,7 @@ const Contact = () => {
                   <p className="text-gray-600">India</p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Contact Form */}

@@ -9,35 +9,35 @@ const Hero = () => {
 
   const heroImages = [
     {
-      url: 'https://cdn.dribbble.com/userupload/44960441/file/6111b8f71db95990bdd425db175c0688.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      url: 'https://cdn.dribbble.com/userupload/45266504/file/5ac6338c6467f91a5ad46ff49c375ae7.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       title: 'Fueling Industries, Sustaining Tomorrow',
       subtitle: 'High-quality biomass pellets for burners & boilers'
     },
     {
-      url: 'https://cdn.dribbble.com/userupload/44960442/file/bd9d4cb5681293fec29565ca0481a221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      url: 'https://cdn.dribbble.com/userupload/45266506/file/f3cc8a62c0c383f585d6779550d533de.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       title: 'Renewable Energy Solutions',
       subtitle: 'Carbon-neutral fuel for a cleaner future'
     },
     {
-      url: 'https://cdn.dribbble.com/userupload/44960443/file/4fa46450b292697fbf4728046a887097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      url: 'https://cdn.dribbble.com/userupload/45266505/file/760e8b9be82b9b0effa5f84dfa840195.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       title: 'Sustainable Industrial Power',
       subtitle: 'Eco-friendly alternatives to fossil fuels'
     },
-    {
-      url: 'https://images.pexels.com/photos/9800029/pexels-photo-9800029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      title: 'Fueling Industries, Sustaining Tomorrow',
-      subtitle: 'High-quality biomass pellets for burners & boilers'
-    },
-    {
-      url: 'https://images.pexels.com/photos/9800019/pexels-photo-9800019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      title: 'Renewable Energy Solutions',
-      subtitle: 'Carbon-neutral fuel for a cleaner future'
-    },
-    {
-      url: 'https://images.pexels.com/photos/9800026/pexels-photo-9800026.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      title: 'Sustainable Industrial Power',
-      subtitle: 'Eco-friendly alternatives to fossil fuels'
-    }
+    // {
+    //   url: 'https://images.pexels.com/photos/9800029/pexels-photo-9800029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    //   title: 'Fueling Industries, Sustaining Tomorrow',
+    //   subtitle: 'High-quality biomass pellets for burners & boilers'
+    // },
+    // {
+    //   url: 'https://images.pexels.com/photos/9800019/pexels-photo-9800019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    //   title: 'Renewable Energy Solutions',
+    //   subtitle: 'Carbon-neutral fuel for a cleaner future'
+    // },
+    // {
+    //   url: 'https://images.pexels.com/photos/9800026/pexels-photo-9800026.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    //   title: 'Sustainable Industrial Power',
+    //   subtitle: 'Eco-friendly alternatives to fossil fuels'
+    // }
   ];
 
   useEffect(() => {
@@ -108,7 +108,7 @@ const Hero = () => {
       </div>
 
       {/* Navigation Arrows */}
-      <button
+      {/* <button
         onClick={prevSlide}
         className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 bg-white bg-opacity-20 hover:bg-opacity-30 rounded-full p-2 transition-all duration-300 backdrop-blur-sm"
       >
@@ -119,7 +119,7 @@ const Hero = () => {
         className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-white bg-opacity-20 hover:bg-opacity-30 rounded-full p-2 transition-all duration-300 backdrop-blur-sm"
       >
         <ChevronRight className="w-6 h-6 text-white" />
-      </button>
+      </button> */}
 
       {/* Slide Indicators */}
       <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
